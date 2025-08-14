@@ -1,4 +1,4 @@
-# v1: Introduction to Generate image captions with the BLIP model
+# v1:Simple Script: Introduction to Generate image captions with the BLIP model (Load a local image and generate a caption using the BLIP model.
 
 import requests
 from PIL import Image # Python Imaging Library (PIL, is used to open the image file and convert it into an RGB format)
@@ -11,7 +11,7 @@ model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-capt
 
 # Load your image, DON'T FORGET TO WRITE YOUR IMAGE NAME
 img_path = "./img3.jpeg"
-# convert it into an RGB format 
+# convert it into an RGB format
 image = Image.open(img_path).convert('RGB')
 
 # You do not need a question for image captioning

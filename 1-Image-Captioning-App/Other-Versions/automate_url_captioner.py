@@ -1,4 +1,4 @@
-# v3: Implement automated image captioning tool
+# v3: Implement automated image captioning tool (Automate Image Captioning from Web URLs)
 
 import requests
 from PIL import Image
