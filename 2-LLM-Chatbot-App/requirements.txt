@@ -1,0 +1,5 @@
+Flask
+Flask_Cors
+torch
+transformers==4.*
+safetensors
